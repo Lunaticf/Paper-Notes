@@ -137,11 +137,102 @@ HCI中主要有两个概念化信任的方向：
 比特币的交易费用很低，能够减少人们在交易中感觉到的风险，因为人们不用担心隐藏的或者更高的花费。
 **risk是model of online trust的第三个因素。** 
 
+### Insecure Transactions
+尽管以上特点支持了区块链技术中的信任，参与者还是表达了对于不安全的交易风险的担忧。但是没有人对矿工的加密算法担心，而是strong trust in miners' expertise and in the predictability of the protocol.(原文表述)。我们下面指出四种不安全交易的类型，其中三种与人相关，一种与技术相关。
+
+*Risk Due to Users' Challenges of Handling Passwords*
+六个受访者提到了丢失钱包密码的风险。“确保你不要忘记自己的密码，因为区块链不能恢复你的密码，你将丢失所有的比特币。”
+
+第二个风险是不能很好的保护密码，一个用户提到自己设置email密码和钱包密码相同，被盗走了30个比特币。
+
+为了解决这些风险，一些用户提到了安全地存储和保护密码的责任和重要性。一些用户甚至安装了额外的安全应用作为双重保障。“系统是安全的，安全责任落在用户身上，如果任何人丢了比特币，首先他们应该责怪自己!”（我很doubt用户有这么高的觉悟.....）
+
+*Risks Due to Hackers Malicious Attacks*
+三个受访者提到了黑客的恶意攻击的问题。
+
+*Risks Due to Failure to Recover from Human Error or Malice*
+尽管三分之一的受访者觉得自己应该担起责任保护自己的密码，但是还是有很多人认为比特币的提供的安全支持有限。主要的问题是交易是不可逆转的，“黑客一旦转走你的钱，你不知道钱到了那里也不能逆转交易。”
+这是一个有趣的发现，显示了比特币的一个缺点。
+
+*Risk Related to Dishonest Partner of Transaction*
+研究显示一个值得考虑的因素是不诚实的交易伙伴。“我转了比特币但是买家不付我钱。”阐述了了解交易伙伴的重要性。
+
+### Strategies for Mitigating the Risks of Dishonest Traders
+我们提出五个应对不诚实交易者的策略。这些策略主要有两种形式的交易：直接和另一个人交易、通过交易所交易。
+
+*Trade with Authorized Exchanges*
+网上交易所现在是用户最喜欢的交易方式，可能因为它的监管支撑了用户的信任。尽管比特币和加密协议是反监管的，交易所却需要金融机构的批准。五个受访者提及了他们会评估交易所的信用程度。“我会看他们的背景，和长期的条款，从这些里面我信任交易所。”
+这也扩展了之前HCI网站价值对于信任的研究，扩展到了加密货币交易的场景。另一个信任的来源是用户可以直接与交易所的客服对话，这使用户感到更放心，有什么问题都可以问。交易所也建立了交易双方的信任，他们需要卖家和买家都注册并且验证身份。
+**这些研究为the framework on mechanics of trust提供了支持**
+- 根据用户的诚信表现和期待他们未来会保持一致的行为（temporal embeddedness）
+- 交易所的名声（social embeddedness）
+- 交易所的合法授权服务（institutional embeddedness）
+
+又说为the framework on mechanics of trust的Intrinsic properties提供了支持。
+
+*Trade with Socially Authorized Traders*
+与社会上权威的非匿名的人交易很放心，这些人一般被社区管理员加到可以信赖的交易者的名单里。这个结果显示了非匿名性对于信任有着巨大的作用。
+**这些研究为the framework on mechanics of trust提供了支持**
+（temporal embeddedness, social embeddedness）
+
+*Trade with Reputable Individual Traders*
+如果不能发现权威的交易者，就只能与风险大一点的良好声誉者交易。这些人往往是通过介绍认识的，超过半成的受访者提到了他们更喜欢与过去交易成功过的人交易。这也显示了善意和名声的重要性。
+**这些研究为the framework on mechanics of trust提供了支持**
+（social embeddedness and credibility）
+
+*Trade with De-anonymized Individual Traders*
+很多受访者表示他们仅仅跟愿意不匿名的人交易，主要有两种方式：
+- 面对面交易
+- 亮出自己的personal ID.
+用户尝试去通过去匿名来引入institutional embeddedness（身份证政府担保）,或者减少不同步交易的风险- 面对面交易。
+
+*Regulating Bitcoin*
+许多用户表示希望比特币被监管。？？？（这不是自相矛盾吗）这是一个重要的一个高级的策略，不解决交易本身，解决区块链没有监管的生态。
+
 ## THEORETICAL IMPLICATIONS
+我们用这些研究的价值来加强HCI中的信任理论。我们也讨论了反监管和伪匿名性对于信任特殊的价值。
+
+### Towards a Model of Trust among Bitcoin Users
+我们考虑了HCI理论对于区块链特点支持用户信任的可行性，对于比特币用户的主要挑战是不安全的交易风险，特别是与不诚实的人交易。
+我们从Sas的比特币信任框架开始（就是他们之前的文章）。我们的研究显示比特币用户对比特币技术的信任还是很强的，特别是安全的加密协议。
+研究依然显示了新的对于社会维度的信任的视角。这里主要的问题是不诚实的交易者。另外很少的用户使用比特币买东西，更多的是财产储备。同时我们也看到了政府信任的丢失如何使用户采纳比特币。
+
+更深入的考察技术信任，我们运用the model of online trust去指出区块链的特点对于信任的影响。
+
+交易的时候，如果有关对方名声的信息越少，就越需要去证实他们的身份。（de-anonymize）。
+
+### The paradox of Unregulation
+比特币的反监管和伪匿名性是关键的区块链的优势。但是有趣的是，比特币用户渴望监管，因为不诚实的交易者的存在。
+我们认为用户还受限于传统的中心化的法币的思维，我们需要新的支持比特币科技的思维模型。这需要新的支持用户学习数字知识的能力，也需要创新的技术来在保持匿名的同时限制不诚实的交易者。
+
+### The Challenge of Pseudo-anonymous Transaction
+在the framework on mechanics of trust中，三种形式（temporal embeddedness, social embeddedness, institutional embeddedness）都变得不起作用。
+
+这是一个失败，区块链不能用contextual properties激励用户。这意味着用户只能依赖自己的Intrinsic properties。
+然而我们发现用户不相信对方的道德品质，想要通过去掉对方的匿名性来保护自己。
+
+这也确认了人们当碰到完全不认识的交易方时，只愿意承担很小的风险。
 
 ## DESIGN IMPLICATIONS
+现在我们讨论设计方面的启示。
+
+### Supporting Transparency of Two-way Transaction
+大多数交易是双向的，序列化和异步的。比如一方发送了法币，当另一方收到之后，发送比特币。然而人们只能追踪比特币的移动，而不能确保法币的交易。（法币可以伪造通过诈骗的方式发送）
+可以使用新的方法来捕捉交易的非比特币内容，使其变成在链上可以验证的。其实早已存在，比如Colored coin.（好像就是用比特币交易的脚本来发行代币的东西）
+
+### Tools for Materializing Trust in Bitcoin
+研究显示由于缺乏稳定的和认识的身份机制，用户往往会寻求social embeddedness来产生信任（搜集对方名声相关的信息、从亲近的朋友、网上小组）。
+
+更好的方式是捕捉和可视化声誉作为钱包地址的元数据，**建立一套区块链之上的信誉系统能够大幅度增加social embeddedness。同时，会促进用户不用新的地址来交易，而是用相同的地址来积累积分。
+
+### Tools to support Reversible Transactions
+还是像之前所说的，不可逆转的交易是一个问题。比特币能被追踪，但是对应的现金转账或者商品交易不行。由于区块链的机制，逆转交易是不可能的。一种解决办法是使用户确保能联系上对方，但是又不丢失用户的隐私性。
+另一种办法是多签名系统，支付一定的费用给第三方，钱被放在一个联合地址里，3方中只有两方同意才能操作。这与中介系统也不同，因为仲裁方自己不能做主，还需要另一方的签名，从而防止了仲裁方的欺诈。
+奇怪的是，没有受访者提到多签名系统，可能因为他们觉得难用，或者不知道这类工具。未来还需要做更多的探索。
 
 ## CONCLUSIONS
+本研究调查了比特币哪些特点支撑用户的信任，和它们激励用户去使用的动机。我们想要建立一个比特币科技的信任模型，并且对于这些特点提供启示。研究产生了很多能够使用户增加彼此信任的启示，包括双向透明交易、物化信任的工具、支持可逆转交易的工具。
+
 
 
 
