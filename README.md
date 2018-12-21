@@ -2,6 +2,7 @@
 This repo contain notes for papers I read.
 
 ## Contents:
+- [How to read a paper](./How-to-read-a-paper.md)
 - [Bitcoin: A Peer-to-Peer Electronic Cash System](./Bitcoin.md)
 - CHI
     - [Design for Trust: An Exploration of the Challenges and Opportunities of Bitcoin Users](./CHI/Design-for-trust.md)
